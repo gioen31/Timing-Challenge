@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Timing Challenge · Multiplayer Locale</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <h1>⏱️ Timing Challenge</h1>
+      <button id="newGameBtn" class="btn-outline">🔄 Nuova partita</button>
+    </header>
+
+    <div class="main-layout">
+      <main id="gameArea" class="game-panel">
+        <!-- Contenuto dinamico -->
+      </main>
+
+      <aside class="scoreboard-panel">
+        <h2>🏆 Classifica</h2>
+        <div id="scoreboardContainer">
+          <p class="placeholder">Nessun giocatore</p>
+        </div>
+        <div class="game-rules-hint">
+          <p>🎯 <strong>Precisione:</strong> ferma il timer più vicino al target.</p>
+          <p>🤔 <strong>Stima:</strong> indovina il tempo cronometrato da un altro.</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
